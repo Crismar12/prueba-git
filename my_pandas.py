@@ -22,5 +22,9 @@ organizada en filas y columnas.
 -Los valores asociados a cada clave son listas. Cada lista representa los datos para esa columna específica.
 -Los elementos dentro de cada lista se alinean para formar las filas del DataFrame.
 """
+# Vista previa de DataFrame
+print("\n Vista previa de DataFrame \n",df.head())
 
+# Seleccionar una columna
+print("\n Seleccionar una columna \n",df['Gender'])
 
